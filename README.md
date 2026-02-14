@@ -28,3 +28,5 @@ Desktop Flutter UI for browsing `.codex` chat log JSONL files.
    - `flutter run -d macos` (or your platform)
 
 By default, the app starts with `$HOME/.codex/sessions` and falls back to `<cwd>/sessions` if `HOME` is unavailable.
+
+Note: To actually make the app work on macOS, you need to open the folder selection dialog and select a folder to give the app permissions to read it.
